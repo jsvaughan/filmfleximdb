@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/list</url>
+    <description>Update the film list from filmflex</description>
+    <schedule>every friday 12:00</schedule>
+  </cron>
+  <cron>
+    <url>/rate</url>
+    <description>Update a single film</description>
+    <schedule>every 60 minutes</schedule>
+  </cron>
+</cronentries>
